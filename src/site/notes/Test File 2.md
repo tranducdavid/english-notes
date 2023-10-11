@@ -8,11 +8,13 @@ Related: [[Test File 1\|Test File 1]]
 
 ---
 
+Graph 1:
 ```mermaid  
 graph LR
 	A -- Text --> B
 ```
 
+Graph 2:
 ```mermaid
 flowchart TD
     A[Start] --> B{Is it?}
