@@ -10,4 +10,31 @@ body {
     //  h1 {
     //   color: black;
     //  }
+    --background-primary: rgb(30, 30, 30) !important;
+    --background-secondary: rgb(38, 38, 38) !important;
+    --background-highlight: rgb(54, 54, 54) !important;
+
+    .tag {
+      color: var(--link-color);
+    }
+
+    .navTitle {
+      color: var(--text-normal);;
+    }
+
+    .filename {
+      color: var(--text-normal);;
+    }
+
+    // notelink 
+    .notelink.active-note {
+      a {
+          color: var(--text-normal);
+      }
+  
+      color: var(--text-normal);
+      background-color: var(--background-highlight);
+      transform: unset;
+      border-radius: 8px;
+  }
 }
