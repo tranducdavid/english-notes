@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/test-file-2/"}
+{"dg-publish":true,"permalink":"/test-file-2/","title":"Test File 2"}
 ---
 
-Status: #in-progress✏️ 
-Labels: [[Test\|Test]], [[Graph\|Graph]]
+Status: #InProgress✏️ 
+Labels: #Test, #Graph
 Related: [[Test File 1\|Test File 1]]
 
 ---
