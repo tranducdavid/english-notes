@@ -1,40 +1,65 @@
 body {
-    /***
+  /***
       ADD YOUR CUSTOM STYLIING HERE. (INSIDE THE body {...} section.)
       IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
    ***/
-    //  background-color: white;
-    //  .content {
-    //   font-size: 14px;
-    //  }
-    //  h1 {
-    //   color: black;
-    //  }
-    --background-primary: rgb(30, 30, 30) !important;
-    --background-secondary: rgb(38, 38, 38) !important;
-    --background-highlight: rgb(54, 54, 54) !important;
+  //  background-color: white;
+  //  .content {
+  //   font-size: 14px;
+  //  }
+  //  h1 {
+  //   color: black;
+  //  }
+  --background-primary: rgb(30, 30, 30) !important;
+  --background-secondary: rgb(38, 38, 38) !important;
+  --background-highlight: rgb(54, 54, 54) !important;
 
-    .tag {
-      color: var(--link-color);
-    }
+  .tag {
+    color: var(--link-color);
+  }
 
-    .navTitle {
-      color: var(--text-normal);;
-    }
+  .navTitle {
+    color: var(--text-normal);
+    font-size: 24px !important;
+  }
 
-    .filename {
-      color: var(--text-normal);;
-    }
+  .navTitleSidebar {
+    color: var(--text-normal);
+    padding-left: 25px;
+    margin-left: 5px;
+    font-size: var(--font-smaller) !important;
+  }
 
-    // notelink 
-    .notelink.active-note {
-      a {
-          color: var(--text-normal);
-      }
-  
+  .filename {
+    color: var(--text-normal);
+    font-size: var(--font-smaller);
+  }
+
+  .notelink {
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+  }
+
+  .notelink.active-note {
+    a {
       color: var(--text-normal);
-      background-color: var(--background-highlight);
-      transform: unset;
-      border-radius: 8px;
+    }
+
+    color: var(--text-normal);
+    background-color: var(--background-highlight);
+    transform: unset;
+    border-width: 0px;
+    border-radius: 8px;
+  }
+
+  pre.mermaid {
+    background: var(--background-secondary) !important;
+    border-radius: var(--radius-s) !important;
+    padding: 10px !important;
+  }
+
+  .edgeLabel {
+    background: var(--background-secondary) !important;
+    color: var(--text-normal) !important;
   }
 }
