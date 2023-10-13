@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/notes/reference/"}
 ---
 
-Status: #InProgress✏️ 
+Status: #Done✔️  
 Labels: #Reference
 Related: [[Notes/Questions\|Questions]], [[Notes/Articles\|Articles]]
 
