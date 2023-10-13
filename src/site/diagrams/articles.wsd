@@ -1,0 +1,244 @@
+@startuml
+'skinparam monochrome true
+'skinparam ArrowColor black
+'skinparam shadowing false
+!theme carbon-gray
+skinparam backgroundColor LightYellow
+skinparam ArrowColor DarkSlateGray
+skinparam ArrowFontSize 17
+skinparam defaultFontColor DarkSlateGray
+skinparam defaultFontSize 17
+skinparam shadowing true
+
+start
+
+' if (?) then (Yes)
+'   #000000:?;
+'   detach
+' else (No)
+'   #000000:?;
+'   detach
+' endif
+
+' switch ()
+' case ()
+' case ()
+' endswitch
+
+if (Is in predefined set?) then (Yes)
+  switch (Is in?)
+  note right
+    Set Expressions
+    Geographic Names
+    Miscellaneous Proper Names
+  end note
+  case ()
+    :<Long list ...>;
+    #b9a6ff:the;
+    detach
+  case ()
+    :<Long list ...>;
+    #a6e6ff:a/an;
+    detach
+  case ()
+    :<Long list ...>;
+    #ffffff:<nothing>;
+    detach
+  endswitch
+else (No)
+  switch (Is it)
+  case ()
+    :Expressions of quantity;
+    if (Countable?) then (Yes)
+      switch (Phrase)
+      case ()
+        :a pair of;
+      case ()
+        :a couple of;
+      case ()
+        :a few;
+      case ()
+        :a number of;
+      case ()
+        :other;
+        #ffffff:<nothing>;
+        detach
+      endswitch
+    else (No)
+      switch (Phrase)
+      case ()
+        :a cup of;
+      case ()
+        :a bowl of;
+      case ()
+        :a piece of;
+      case ()
+        :a little;
+      case ()
+        :a large amount of;
+      case ()
+        :a lot of;
+      case ()
+        :other;
+        #ffffff:<nothing>;
+        detach
+      endswitch
+    endif
+    #a6e6ff:a;
+    detach
+  case ()
+    :Expressions of time, frequency, quantity;
+    #a6e6ff:a/an;
+    detach
+  case ()
+    :Idiomatic character;
+    #a6e6ff:a/an;
+    detach
+  case ()
+    :The phrases "what a; such a";
+    #a6e6ff:a/an;
+    detach
+  case ()
+    :Personal name;
+    #ffa0a0:<Complicated>;
+    detach
+  case ()
+    :Information about people;
+    #ffa0a0:<Redundant?>;
+    detach
+  case ()
+    :Appositives;
+    #ffa0a0:<Redundant?>;
+    detach
+  case ()
+    :Titles, ranks, job titles;
+    if (With name?) then (Yes)
+      #ffffff:<nothing>;
+      detach
+    else (No)
+      #b9a6ff:the;
+      detach
+    endif
+  case ()
+    :Surname in the plural;
+    #b9a6ff:the;
+    detach
+  case ()
+    :Adverbial modifier;
+    switch ()
+    case()
+      :Time;
+      #b9a6ff:the;
+      detach
+    case()
+      :Place;
+      #b9a6ff:the;
+      detach
+    case()
+      :<Other>;
+      #ffffff:<nothing>;
+      detach
+    endswitch
+  case ()
+    :Ordinal numeral;
+    #b9a6ff:the;
+    detach
+  case ()
+    :Decades of years;
+    #b9a6ff:the;
+    detach
+  case ()
+    :Musical instrument;
+    #b9a6ff:the;
+    detach
+  case ()
+    :A notion representing a class of objects;
+    if (Countable) then (Yes)
+      #b9a6ff:the;
+      detach
+    else (No)
+      #ffffff:<nothing>;
+      detach
+    endif
+  case ()
+    :Noun;
+    if (Countable?) then (Yes)
+      if (Grammatical Number) then (Singular)
+          if (Means one/some/any?) then (Yes)
+            #a6e6ff:a/an;
+            detach
+          else (No)
+            if (Is specific/unique?) then (Yes)
+              #b9a6ff:the;
+              detach
+            else (No)
+              #a6e6ff:a/an;
+              detach
+            endif
+          endif
+        detach
+      else (Plural)
+        if (Means one/some/any?) then (Yes)
+          #ffffff:<nothing>;
+          detach
+        else (No)
+          if (Is specific/unique?) then (Yes)
+            #b9a6ff:the;
+            detach
+          else (No)
+            #ffffff:<nothing>;
+            detach
+          endif
+        endif
+      endif
+    else (No)
+      #ffa6a6:if (Necessary to point out?) then (Yes)
+        #b9a6ff:the;
+        detach
+        detach
+      else (No)
+        if (Uncountable abstract?) then (Yes)
+          #a6e6ff:a/an;
+          detach
+        else (No)
+          if (Functions as countable?) then (Yes)
+            #a6e6ff:a/an;
+            detach
+          else (No)
+            #ffffff:<nothing>;
+            detach
+          endif
+
+        endif
+      endif
+    endif
+  case () 
+    :Adjective;
+    if (right/wrong/left/right/only/same/last/next/following?) then (Yes)
+      if (last/next?) then (Yes)
+        if (Adverbial modifiers of time?) then (Yes)
+          #ffffff:<nothing>;
+          detach
+        else (No)
+          #b9a6ff:the;
+          detach
+        endif
+      else (No)
+        #b9a6ff:the;
+        detach
+      endif
+    else (No)
+      if (Functions as noun?) then (Yes)
+        #a6e6ff:a/an;
+        detach
+      else (No)
+        #ffffff:<nothing>;
+        detach
+      endif
+    endif
+
+  endswitch
+endif
+@enduml
+
+
