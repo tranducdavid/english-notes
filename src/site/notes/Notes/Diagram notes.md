@@ -4,11 +4,12 @@
 
 Status: #InProgress✏️ 
 Labels: #Diagram, #Articles
-Related: [[Notes/Articles\|Articles]], [[Articles Diagram.png]]
+Related: [[Notes/Articles\|Articles]], [[articles-diagram.png]]
 
 ---
 
- [[Articles Diagram.png]]![Articles Diagram.png](/img/user/Images/Articles%20Diagram.png)
+[[articles-diagram.png]]
+![articles-diagram.png](/img/user/img/articles-diagram.png)
 ## Is specific?
 >If you need to single out a countable noun in the singular and to make it specific and the only one, use the definite article "the". Usually, some additional information is needed in the sentence to single out this noun, for example, the of-phrase or a subordinate clause.
 
