@@ -8,6 +8,24 @@ Related:
 
 ---
 # Process
+## Creating the SRS entries
+
+[SRS Diagram](https://english-notes-dtd.vercel.app/img/srs-diagram.png)
+![srs-diagram.png](/img/user/img/srs-diagram.png)
+### Part 1
+1. Record saying the word without any reference.
+2. Compare the recording to a high-quality recording.
+3. If the self-evaluation is
+	- positive: keep the recording and review them with a teacher later
+	- negative: proceed to `Flow 2`
+4. Review positively evaluated recordings with a teacher, depending on the teachers evaluation
+	- positive: add the word to the list of learned words
+	- negative:
+		- correct the pronunciation with the teacher
+		- save the recording
+		- create an SRS entry from it later
+
+### Part 2
 1. Listen to a high-quality recording.
 2. Record myself repeating the word a few times.
 3. Compare my recording with the original.
