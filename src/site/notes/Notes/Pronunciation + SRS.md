@@ -61,3 +61,13 @@ Create a comprehensive dataset of commonly used words in the English language (1
 - The pronunciation in isolation is usually different than in a sentence.
 - Potential for incorrect self-assessment. No feedback from a teacher after creating the entry.
 	- Can be solved by increasing the scope. Depending on the frequency doubling or tripling teacher's involvement.
+
+---
+# Dependencies & Tools
+- Sounds American recordings
+- Teacher
+- Nodejs + Typescript (for SRS)
+- Audacity (for recording)
+- Git or Google Drive (for data storage & backup)
+- Discord (for communication with the teacher)
+- Notepad/Sublime/Obsidian/VS Code/Excel/Google Sheets (for intermediate data storage, e.g., taking notes)
