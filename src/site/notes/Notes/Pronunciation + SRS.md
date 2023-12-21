@@ -31,7 +31,7 @@ Assuming:
 - 10 new entries per day
 - 70 words reviewed per hour-long session with a teacher
 
-Then, each day would require around 1 hour. Specifically, 50 minutes of dataset creation and 13 minutes ('10 entries * (10/60) minutes * 7 successful reviews / 0.9 success rate`) of reviewing. With weekly hour-long sessions with a teacher to review 70 new words. This results in 8.5 hours per week.
+Then, each day would require around 1 hour. Specifically, 50 minutes of dataset creation and 13 minutes (`10 entries * (10/60) minutes * 7 successful reviews / 0.9 success rate`) of reviewing. With weekly hour-long sessions with a teacher to review 70 new words. This results in 8.5 hours per week.
 
 Covering the 1000 words would take around 120 hours over 100 days. It would take 15 hours for the teacher to review the SRS entries.
 
