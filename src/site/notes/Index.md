@@ -4,6 +4,7 @@
 
 # Index
 - [[Notes/Articles\|Articles]]
-- [[Notes/Diagram notes\|Diagram notes]]
+- [[Notes/Article diagram notes\|Article diagram notes]]
+- [[Notes/Pronunciation + SRS\|Pronunciation + SRS]]
 - [[Notes/Questions\|Questions]]
 - [[Notes/Reference\|Reference]]
