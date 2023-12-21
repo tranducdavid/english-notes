@@ -4,7 +4,7 @@
 
 Status: #InProgress✏️ 
 Labels: #Grammar, #Articles 
-Related: [[Notes/Diagram notes\|Diagram notes]], [[Notes/Questions\|Questions]]
+Related: [[Notes/Article diagram notes\|Article diagram notes]], [[Notes/Questions\|Questions]]
 
 ---
 
