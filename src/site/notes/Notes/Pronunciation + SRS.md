@@ -17,7 +17,7 @@ Related:
 2. Compare the recording to a high-quality recording.
 3. If the self-evaluation is
 	- positive: keep the recording and review them with a teacher later
-	- negative: proceed to `Flow 2`
+	- negative: proceed to `Part 2`
 4. Review positively evaluated recordings with a teacher, depending on the teachers evaluation
 	- positive: add the word to the list of learned words
 	- negative:
