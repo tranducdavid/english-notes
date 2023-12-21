@@ -3,7 +3,7 @@
 ---
 
 Status: #InProgress✏️ 
-Labels:
+Labels: #Diagram, #Pronunciation
 Related:
 
 ---
