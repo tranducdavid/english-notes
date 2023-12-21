@@ -19,6 +19,8 @@ Related:
     - Answer: the original recording + my best recording + the word in a written form in IPA
 8. Review the word 7 times with increasing intervals of 2^n days. If the answer is incorrect, reset the progress. The answer is marked either as correct or incorrect based on self-evaluation.
 
+*Notes: To keep the review count consistent every day, the SRS must be done daily with a strict schedule. The reviewing should start after having a sufficient backlog (200+) of entries to avoid breaking the schedule.*
+
 # Scope
 ### Option 1
 Create a smaller but diverse dataset that contains all sounds in the English language. https://soundsamerican.net/ lists 48 different sounds and offers around 20 words per sound. The total size would be about 1000 words.
